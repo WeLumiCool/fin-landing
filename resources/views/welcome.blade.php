@@ -140,7 +140,7 @@
     <div class="container-fluid" style="background: linear-gradient(275.58deg, rgba(58, 241, 158, 0.06) 0%, rgba(32, 176, 231, 0.06) 100%);">
         <div class="container pt-5 pb-4">
             <div class="row justify-content-center">
-                <div class="col-lg-9 col-12 text-center">
+                <div class="col-lg-10 col-12 text-center">
                     <p class="font-weight-normal fin-desc" style="color: #000000; {{ $agent->isDesktop() ? 'font-size: 22px' : 'font-size: 18px' }}">
                         «Долго не мог оформить потребительский кредит, не было времени выбрать нужный банк и тариф. Сервис сам подобрал мне нужный вариант. Мы наконец-то обновили свою стиральную машину, жена очень рада»
                     </p>
@@ -252,7 +252,7 @@
         </div>
     </div>
     <div class="container-fluid" style="background-image: url({{ asset('image/img/bg8.webp') }}); background-size: cover; background-position: center;">
-        <div class="container pt-5 pb-4">
+        <div class="container pt-5 pb-4 px-lg-3 px-0">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-12 pr-lg-5 pr-0 text-lg-left text-center">
                     <h3 class="fin-title-2" style=" {{$agent->isDesktop() ? 'font-size: 35px' : 'font-size: 22px'}}; color: #2e2e2e; line-height: 120%;">
@@ -262,14 +262,46 @@
                         Оставьте свою электронную почту, чтобы быть в курсе самых выгодных предложений.
                     </p>
                 </div>
-                <div class="col-lg-3 col-12 d-flex align-items-center justify-content-lg-start justify-content-center">
-                    <form class="text-lg-left text-center" action="">
+                <div class="col-lg-6 col-12 px-lg-3 px-0 d-flex align-items-center justify-content-lg-start justify-content-center">
+                    {{--<form class="text-lg-left text-center" action="">
                     <input class="form-control bg-transparent"  style="border: 1px solid #959595; border-radius: 10px;" type="text" placeholder="Имя">
                     <input class="form-control bg-transparent mt-4"  style="border: 1px solid #959595; border-radius: 10px;" type="email" placeholder="Ваш e-mail">
                         <button class="btn text-white border-0 mt-4" style="background: linear-gradient(180deg, #F96C4D 0%, #F18936 100%); border-radius: 10px; padding: 7px 32px;">
                             Подписаться
                         </button>
-                    </form>
+                    </form>--}}
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item mr-lg-2 mr-0">
+                            <a href="#">
+                                <img style="{{$agent->isMobile() ? 'width: 60px' : ''}}" src="{{ asset('image/icons/instagram.webp') }}" alt="Instagram">
+                            </a>
+                        </li>
+                        <li class="list-inline-item mr-lg-2 mr-0">
+                            <a href="#">
+                                <img style="{{$agent->isMobile() ? 'width: 60px' : ''}}" src="{{ asset('image/icons/telegram.webp') }}" alt="telegram">
+                            </a>
+                        </li>
+                        <li class="list-inline-item mr-lg-2 mr-0">
+                            <a href="#">
+                                <img style="{{$agent->isMobile() ? 'width: 60px' : ''}}" src="{{ asset('image/icons/facebook.webp') }}" alt="facebook">
+                            </a>
+                        </li>
+                        <li class="list-inline-item mr-lg-2 mr-0">
+                            <a href="#">
+                                <img style="{{$agent->isMobile() ? 'width: 60px' : ''}}" src="{{ asset('image/icons/odnoklassniki.webp') }}" alt="odnoklassniki">
+                            </a>
+                        </li>
+                        <li class="list-inline-item mr-lg-2 mr-0">
+                            <a href="#">
+                                <img style="{{$agent->isMobile() ? 'width: 60px' : ''}}" src="{{ asset('image/icons/mail.webp') }}" alt="mail">
+                            </a>
+                        </li>
+                        <li class="text-lg-left text-center mr-lg-2 mr-0">
+                            <button class="btn text-white border-0 mt-4" style="background: linear-gradient(180deg, #F96C4D 0%, #F18936 100%); border-radius: 10px; padding: 7px 32px;">
+                                Подписаться
+                            </button>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
