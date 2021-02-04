@@ -85,6 +85,11 @@ html, body {
     color: #404040;
     margin: 0px 24px;
 }
+.fin-menu-mobile {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
 .solid-nav {
     background-color: white;
 }
@@ -105,4 +110,13 @@ html, body {
     font-size: 16px;
     line-height: 140%;
     color: #737373;
+}
+.social-ico
+{
+    color: white;
+    transition: 0.3s;
+}
+.social-ico:hover
+{
+    color: #F95F19;
 }
