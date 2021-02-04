@@ -5,6 +5,9 @@ html, body {
 .rubik {
     font-family: 'Rubik', sans-serif!important;
 }
+.inter {
+    font-family: 'Inter', sans-serif!important;
+}
 .font-size-10 {
     font-size: 10px!important;
 }
@@ -73,8 +76,6 @@ html, body {
     background: linear-gradient(180deg, #3AF19E 0%, #20B0E7 66.67%);
     border: 0;
     color: white;
-    font-size: 16px;
-    font-weight: 600;
     border-radius: 10px;
 }
 .fin-menu-point

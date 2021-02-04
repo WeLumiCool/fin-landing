@@ -62,16 +62,65 @@
                 <div class="col-6">
                     <div class="row">
                         <div class="col-4 px-0">
-                            <img class="img-fluid" src="{{ asset('image/companies/baitushum.png') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('image/companies/baitushum.webp') }}" alt="">
                         </div>
                         <div class="col-4 px-0">
-                            <img class="img-fluid" src="{{ asset('image/companies/optima.png') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('image/companies/optima.webp') }}" alt="">
                         </div>
-                        <div class=""></div>
+                        <div class="col-4 px-0">
+                            <img class="img-fluid" src="{{ asset('image/companies/finka.webp') }}" alt="">
+                        </div>
+
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-4 px-0">
+                            <img class="img-fluid" src="{{ asset('image/companies/halyk_bank.webp') }}" alt="">
+                        </div>
+                        <div class="col-4 px-0">
+                            <img class="img-fluid" src="{{ asset('image/companies/ayil.webp') }}" alt="">
+                        </div>
+                        <div class="col-4 px-0">
+                            <img class="img-fluid" src="{{ asset('image/companies/fkb.webp') }}" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
 
+        </div>
+    </div>
+    <div class="container-fluid" style="background: linear-gradient(275.58deg, rgba(58, 241, 158, 0.06) 0%, rgba(32, 176, 231, 0.06) 100%);">
+        <div class="container pt-5 pb-4">
+            <div class="row justify-content-center">
+                <div class="col-9 text-center">
+                    <p class="font-size-22 font-weight-normal">
+                        «Определилась с выбором банка и условиями многочисленных кредитных тарифов без труда, не выходя из дома»
+                    </p>
+                    <img src="{{ asset('image/img/Media-Person.webp') }}" class="mb-3 mt-4" alt="User">
+                    <p class="font-size-14 font-weight-normal">
+                        Maria Lopez, VP of Design at Meshery
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container py-5 mt-5">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-lg-5 px-0">
+                    <img src="{{ asset('image/img/third-block-man.webp') }}" alt="Финансы стали проще">
+                </div>
+                <div class="col-12 col-lg-4">
+                    <h3 class="rubik">
+                        Финансы стали проще
+                    </h3>
+                    <p>
+                        Cillum excepteur incididunt fugiat quis ullamco sint sunt duis proident commodo quis. Exercitation deserunt est enim qui dolor sit reprehenderit exercitation laborum
+                    </p>
+                    <button class="btn fin-btn inter" style="padding: 5px 40px; margin-top: 50px;">
+                        Подобрать кредит
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
 @endsection
