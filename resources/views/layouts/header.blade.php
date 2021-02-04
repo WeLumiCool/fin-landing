@@ -25,8 +25,13 @@ $agent = new Agent();
                 </a>
 
                 <a href="">
-                <span class="{{ $agent->isDesktop() ? 'fin-menu-point' : 'fin-menu-mobile'}}">отзывы</span>
+                <span class="{{ $agent->isDesktop() ? 'fin-menu-point' : 'fin-menu-mobile'}}">{{ __('main.review') }}</span>
                 </a>
+
+                <a class=
+                   "{{ $agent->isDesktop() ? 'fin-menu-point' : 'fin-menu-mobile'}}" href="{{ route('language.switch', 'ru') }}">RU</a>
+                <a class=
+                   "{{ $agent->isDesktop() ? 'fin-menu-point' : 'fin-menu-mobile'}}" href="{{ route('language.switch', 'kg') }}">KG</a>
 
             </div>
             <div class="navbar-nav ml-auto d-flex align-items-center">

@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/set-language/{lang}', [\App\Http\Controllers\LanguageController::class, 'switch_lang'])->name('language.switch');
 
 Auth::routes();
 
