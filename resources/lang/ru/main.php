@@ -2,6 +2,7 @@
 
 return [
     //header
+    'master'                        => 'Подобрать кредит',
     'review'                        => 'отзыв',
     'consumer_credit'               => 'Потребительский кредит',
     'about_us'                      => 'О нас',

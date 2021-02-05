@@ -21,14 +21,14 @@
                         </p>
                         <a href="http://fin.kg/type_list/11">
                             <button class="btn fin-btn d-lg-block d-none" style="padding: 5px 40px; margin-top: 50px;">
-                                Перейти
+                                {{__('main.go_to')}}
                             </button>
                         </a>
                         <div class="d-lg-none d-block mt-5">
                             <img class="img-fluid d-lg-none d-block" src="{{ asset('image/img/blimg1.webp') }}" alt="">
                             <a href="http://fin.kg/type_list/11">
                                 <button class="btn fin-btn mt-5" style="padding: 5px 40px; margin-top: 50px;">
-                                    Перейти
+                                    {{__('main.go_to')}}
                                 </button>
                             </a>
                         </div>
@@ -102,7 +102,7 @@
                 <div class="col-lg-6 col-12">
                     <h2 class="fin-title-2 rubik text-lg-left text-center"
                         style="{{$agent->isDesktop() ? 'font-size: 55px' : 'font-size: 25px'}}; ">
-                        О нас
+                        {{ __('main.about_us') }}
                     </h2>
                     <p class="fin-desc mt-3 pr-lg-5 pr-0 text-lg-left text-center" style="font-weight: 700!important;">
                         {{ __('main.fin_kg') }}
