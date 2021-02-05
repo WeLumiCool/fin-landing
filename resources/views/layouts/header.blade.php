@@ -38,7 +38,7 @@ $agent = new Agent();
                    "{{ $agent->isDesktop() ? 'fin-menu-point' : 'fin-menu-mobile'}} mr-lg-3 mr-0" href="{{ route('language.switch', 'kg') }}">KG</a>
                 <a href="http://fin.kg/newmaster/1#/">
                     <button class="btn fin-btn" style="padding: 10px 32px;">
-                        Подбор мастер
+                        {{__('main.master')}}
                     </button>
                 </a>
             </div>
