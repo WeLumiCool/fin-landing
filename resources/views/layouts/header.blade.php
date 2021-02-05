@@ -17,7 +17,7 @@ $agent = new Agent();
             <div class="navbar-nav mx-auto d-flex align-items-center">
                 <!-- Authentication Links -->
                 <a href="">
-                <span class="{{ $agent->isDesktop() ? 'fin-menu-point' : 'fin-menu-mobile'}}">о нас</span>
+                <span class="{{ $agent->isDesktop() ? 'fin-menu-point' : 'fin-menu-mobile'}}">{{ __('main.about_us') }}</span>
                 </a>
 
                 <a href="">
