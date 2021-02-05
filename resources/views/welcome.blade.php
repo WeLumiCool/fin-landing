@@ -149,7 +149,7 @@
                        style="color: #000000; {{ $agent->isDesktop() ? 'font-size: 22px' : 'font-size: 18px' }}">
                         {{ __('main.product_desc') }}
                     </p>
-                    <img style="width:50px; " src="{{ asset('image/img/MediaPerson.webp') }}" class="mb-3 mt-4"
+                    <img style="width:50px; " src="{{ asset('image/img/person2.webp') }}" class="mb-3 mt-4"
                          alt="User">
                     <p class="font-size-14 font-weight-normal" style="color: #000000;">
                         Садыр
@@ -191,7 +191,7 @@
                        style="color: #000000; {{ $agent->isDesktop() ? 'font-size: 22px' : 'font-size: 18px;' }}">
                         {{ __('main.review_second') }}
                     </p>
-                    <img style="width:50px; " src="{{ asset('image/img/MediaPerson.webp') }}" class="mb-3 mt-4"
+                    <img style="width:50px; " src="{{ asset('image/img/person1.webp') }}" class="mb-3 mt-4"
                          alt="User">
                     <p class="font-size-14 font-weight-normal" style="color: #000000;">
                         Адилет
@@ -233,7 +233,7 @@
                        style="color: #000000; {{$agent->isDesktop() ? 'font-size: 22px' : 'font-size: 18px;'}}">
                         {{ __('main.review_third') }}
                     </p>
-                    <img style="width:50px; " src="{{ asset('image/img/MediaPerson.webp') }}" class="mb-3 mt-4"
+                    <img style="width:50px; " src="{{ asset('image/img/women1.webp') }}" class="mb-3 mt-4"
                          alt="User">
                     <p class="font-size-14 font-weight-normal" style="color: #000000;">
                         Аяна
