@@ -20,9 +20,9 @@ $agent = new Agent();
                 <span class="{{ $agent->isDesktop() ? 'fin-menu-point' : 'fin-menu-mobile'}}">{{ __('main.about_us') }}</span>
                 </a>
 
-                <a href="">
-                <span class="{{ $agent->isDesktop() ? 'fin-menu-point' : 'fin-menu-mobile'}}">партнеры</span>
-                </a>
+                {{--<a href="">--}}
+                {{--<span class="{{ $agent->isDesktop() ? 'fin-menu-point' : 'fin-menu-mobile'}}">{{ _ }}</span>--}}
+                {{--</a>--}}
 
                 <a href="">
                 <span class="{{ $agent->isDesktop() ? 'fin-menu-point' : 'fin-menu-mobile'}}">{{ __('main.review') }}</span>
