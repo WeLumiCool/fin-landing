@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98da22b4-e15d-4860-8b9c-f70a0e80bc13" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/LanguageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/LanguageSwitcherMiddleware.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/kg/main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ru/main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/kg/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/kg/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ru/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ru/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -217,7 +213,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612412009741</updated>
       <workItem from="1612412011173" duration="8694000" />
-      <workItem from="1612447100814" duration="1037000" />
+      <workItem from="1612447100814" duration="6437000" />
     </task>
     <servers />
   </component>

@@ -8,7 +8,7 @@
                     </div>
                     <div class="col-lg-2 col-6 d-lg-block d-none">
                         <p class="mb-0 font-weight-normal" style="color: #E5E5E5;">
-                            Подпишитесь на нас
+                            {{ __('main.follow_me') }}
                         </p>
                     </div>
                     <div class="col-lg-5 col-12 d-flex mt-lg-0 mt-4">
@@ -38,24 +38,24 @@
                 <div class="row py-3">
                     <div class="col-lg-4 col-12">
                         <h3 class="font-weight-normal font-size-16 mb-4" style="color: #C6DFEC;">
-                            Служба поддержки
+                            {{ __('main.help') }}
                         </h3>
                         <h3 class="font-weight-normal font-size-16 mb-3" style="color: #C6DFEC;">
-                            О проекте
+                            {{ __('main.about_project') }}
                         </h3>
                         <p class="font-size-12 font-weight-light mb-2" style="color: #C6DFEC;">
-                            Описание
+                            {{ __('main.desc') }}
                         </p>
                         <p class="font-size-12 font-weight-light mb-2" style="color: #C6DFEC;">
-                            Миссия
+                            {{ __('main.mission') }}
                         </p>
                     </div>
                     <div class="col-lg-4 col-12 mt-lg-0 mt-3">
                         <h3 class="font-weight-normal font-size-16 mb-3" style="color: #C6DFEC;">
-                            Реклама
+                            {{ __('main.advertisement') }}
                         </h3>
                         <p class="font-size-12 font-weight-light mb-2" style="color: #C6DFEC;">
-                            Размещение в разделе продуктов
+                            {{ __('main.put_products_part') }}
                         </p>
                         {{--                        <p class="font-size-12 font-weight-light mb-1" style="color: #C6DFEC;">--}}
                         {{--                            Турдубеков Эржан Эржанович--}}
@@ -67,7 +67,7 @@
                             admin@gmail.com
                         </p>
                         <p class="font-size-12 font-weight-light mb-2" style="color: #C6DFEC;">
-                            Размещение в разделе новостей
+                            {{ __('main.put_news_part') }}
                         </p>
                         {{--                        <p class="font-size-12 font-weight-light mb-1" style="color: #C6DFEC;">--}}
                         {{--                            Турдубеков Эржан Эржанович--}}
@@ -81,10 +81,10 @@
                     </div>
                     <div class="col-lg-4 col-12 mt-lg-0 mt-3">
                         <h3 class="font-weight-normal font-size-16 mb-3" style="color: #C6DFEC;">
-                            Контакты
+                            {{ __('main.contacts') }}
                         </h3>
                         <p class="font-size-12 font-weight-light mb-2" style="color: #C6DFEC;">
-                            Отдел маркетинга
+                            {{ __('main.marketing_part') }}
                         </p>
                         {{--                        <p class="font-size-12 font-weight-light mb-1" style="color: #C6DFEC;">--}}
                         {{--                            Турдубеков Эржан Эржанович--}}
@@ -139,12 +139,12 @@
                     </div>
                     <div class="col-lg-3 col-6">
                         <p class="small font-size-12 mb-0" style="color: #ffffff;">
-                            Пользовательское соглашение
+                            {{ __('main.user_agree') }}
                         </p>
                     </div>
                     <div class="col-lg-2 col-6">
                         <p class="small font-size-12 mb-0" style="color: #ffffff;">
-                            Договор по оферте
+                            {{ __('main.contract_on_offer') }}
                         </p>
                     </div>
                     <div class="col-lg-2 col-6">
