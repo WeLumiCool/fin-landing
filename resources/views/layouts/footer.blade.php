@@ -16,18 +16,24 @@
                             {{--<i class="fab fa-youtube mx-lg-3 mx-2 fa-lg social-ico"></i>--}}
                         {{--</a>--}}
                         {{--<i class="fab fa-tiktok mx-lg-3 mx-2 fa-lg social-ico"></i>--}}
-                        <a href="https://www.facebook.com/Finkg-104978608190572">
-                            <i class="fab fa-facebook-square mx-lg-3 mx-2 fa-lg social-ico"></i>
-                        </a>
-                        <a href="https://vk.com/club201397360">
-                            <i class="fab fa-vk mx-lg-3 mx-2 fa-lg social-ico"></i>
-                        </a>
-                        {{--<i class="fab fa-whatsapp mx-lg-3 mx-2 fa-lg social-ico"></i>--}}
-                        <a href="https://t.me/fin_kg">
-                            <i class="fab fa-telegram-plane mx-lg-3 mx-2 fa-lg social-ico"></i>
-                        </a>
                         <a href="https://www.instagram.com/fin.kg_media/">
                             <i class="fab fa-instagram mx-lg-3 mx-2 fa-lg social-ico"></i>
+                        </a>
+                        <a href="https://t.me/fin_kg">
+                            <i class="fab fa-telegram-plane  mx-lg-3 mx-2 fa-lg social-ico"></i>
+                        </a>
+                        {{--<i class="fab fa-whatsapp mx-lg-3 mx-2 fa-lg social-ico"></i>--}}
+                        <a href="https://www.facebook.com/Finkg-100368308735998">
+                            <i class="fab fa-facebook-square mx-lg-3 mx-2 fa-lg social-ico"></i>
+                        </a>
+                        <a href="https://ok.ru/group/65850950418465">
+                            <i class="fab fa-odnoklassniki mx-lg-3 mx-2 fa-lg social-ico"></i>
+                        </a>
+                        <a href="https://twitter.com/Finkg_media">
+                            <i class="fab fa-twitter mx-lg-3 mx-2 fa-lg social-ico"></i>
+                        </a>
+                        <a href="https://vk.com/public201397360">
+                            <i class="fab fa-vk mx-lg-3 mx-2 fa-lg social-ico"></i>
                         </a>
                     </div>
                 </div>

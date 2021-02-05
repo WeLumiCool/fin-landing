@@ -272,35 +272,52 @@
                     </form>--}}
                     <ul class="list-unstyled list-inline">
                         <li class="list-inline-item mr-lg-2 mr-0">
-                            <a href="#">
-                                <img style="{{$agent->isMobile() ? 'width: 60px' : ''}}" src="{{ asset('image/icons/instagram.webp') }}" alt="Instagram">
+                            <a href="https://www.instagram.com/fin.kg_media/">
+                                <div class="bg-white d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; border-radius: 5px;">
+                                    <i class="fab fa-instagram social-ico-2 fa-2x"></i>
+                                </div>
                             </a>
                         </li>
                         <li class="list-inline-item mr-lg-2 mr-0">
-                            <a href="#">
-                                <img style="{{$agent->isMobile() ? 'width: 60px' : ''}}" src="{{ asset('image/icons/telegram.webp') }}" alt="telegram">
+                            <a href="https://t.me/fin_kg">
+                                <div class="bg-white d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; border-radius: 5px;">
+                                    <i class="fab fa-telegram-plane social-ico-2 fa-2x"></i>
+                                </div>
                             </a>
                         </li>
                         <li class="list-inline-item mr-lg-2 mr-0">
-                            <a href="#">
-                                <img style="{{$agent->isMobile() ? 'width: 60px' : ''}}" src="{{ asset('image/icons/facebook.webp') }}" alt="facebook">
+                            <a href="https://www.facebook.com/Finkg-100368308735998">
+                                <div class="bg-white d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; border-radius: 5px;">
+                                    <i class="fab fa-facebook-square social-ico-2 fa-2x"></i>
+                                </div>
                             </a>
                         </li>
                         <li class="list-inline-item mr-lg-2 mr-0">
-                            <a href="#">
-                                <img style="{{$agent->isMobile() ? 'width: 60px' : ''}}" src="{{ asset('image/icons/odnoklassniki.webp') }}" alt="odnoklassniki">
+                            <a href="https://ok.ru/group/65850950418465">
+                                <div class="bg-white d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; border-radius: 5px;">
+                                    <i class="fab fa-odnoklassniki social-ico-2 fa-2x"></i>
+                                </div>
                             </a>
                         </li>
                         <li class="list-inline-item mr-lg-2 mr-0">
-                            <a href="#">
-                                <img style="{{$agent->isMobile() ? 'width: 60px' : ''}}" src="{{ asset('image/icons/mail.webp') }}" alt="mail">
+                            <a href="https://twitter.com/Finkg_media">
+                                <div class="bg-white d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; border-radius: 5px;">
+                                    <i class="fab fa-twitter social-ico-2 fa-2x"></i>
+                                </div>
                             </a>
                         </li>
-                        <li class="text-lg-left text-center mr-lg-2 mr-0">
-                            <button class="btn text-white border-0 mt-4" style="background: linear-gradient(180deg, #F96C4D 0%, #F18936 100%); border-radius: 10px; padding: 7px 32px;">
-                                Подписаться
-                            </button>
+                        <li class="list-inline-item mr-lg-2 mr-0">
+                            <a href="https://vk.com/public201397360">
+                                <div class="bg-white d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; border-radius: 5px;">
+                                    <i class="fab fa-vk social-ico-2 fa-2x"></i>
+                                </div>
+                            </a>
                         </li>
+                        {{--<li class="text-lg-left text-center mr-lg-2 mr-0">--}}
+                            {{--<button class="btn text-white border-0 mt-4" style="background: linear-gradient(180deg, #F96C4D 0%, #F18936 100%); border-radius: 10px; padding: 7px 32px;">--}}
+                                {{--Подписаться--}}
+                            {{--</button>--}}
+                        {{--</li>--}}
                     </ul>
                 </div>
             </div>

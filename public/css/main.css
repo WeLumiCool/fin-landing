@@ -120,3 +120,12 @@ html, body {
 {
     color: #F95F19;
 }
+.social-ico-2
+{
+    color: rgba(32, 176, 231, 0.51);
+    transition: 0.3s;
+}
+.social-ico-2:hover
+{
+    color: rgb(32, 176, 231);
+}
