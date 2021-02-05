@@ -14,17 +14,17 @@ $agent = new Agent();
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Right Side Of Navbar -->
-            <div class="navbar-nav mx-auto d-flex align-items-center">
+            <div class="navbar-nav mx-auto d-flex align-items-center" id="pick">
                 <!-- Authentication Links -->
-                <a href="">
-                <span class="{{ $agent->isDesktop() ? 'fin-menu-point' : 'fin-menu-mobile'}}">{{ __('main.about_us') }}</span>
+                <a href="#about">
+                    <span class="{{ $agent->isDesktop() ? 'fin-menu-point' : 'fin-menu-mobile'}}">{{ __('main.about_us') }}</span>
                 </a>
 
                 {{--<a href="">--}}
                 {{--<span class="{{ $agent->isDesktop() ? 'fin-menu-point' : 'fin-menu-mobile'}}">{{ _ }}</span>--}}
                 {{--</a>--}}
 
-                <a href="">
+                <a href="#feedback">
                 <span class="{{ $agent->isDesktop() ? 'fin-menu-point' : 'fin-menu-mobile'}}">{{ __('main.review') }}</span>
                 </a>
 

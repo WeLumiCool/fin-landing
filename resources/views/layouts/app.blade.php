@@ -70,4 +70,14 @@
         }
     });
 </script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#pick").on("click","a", function (event) {
+            event.preventDefault();
+            var id  = $(this).attr('href'),
+                top = $(id).offset().top - 100;
+            $('body,html').animate({scrollTop: top}, 700);
+        });
+    });
+</script>
 </html>

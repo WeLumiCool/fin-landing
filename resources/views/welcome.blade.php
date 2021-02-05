@@ -96,7 +96,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-white" style="padding: 65px 0px;">
+    <div class="container-fluid bg-white" id="about" style="padding: 65px 0px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-12">
@@ -183,7 +183,7 @@
         </div>
     </div>
     <div class="container-fluid"
-         style="background: linear-gradient(275.58deg, rgba(58, 241, 158, 0.06) 0%, rgba(32, 176, 231, 0.06) 100%);">
+         style="background: linear-gradient(275.58deg, rgba(58, 241, 158, 0.06) 0%, rgba(32, 176, 231, 0.06) 100%);" id="feedback">
         <div class="container pt-5 pb-4">
             <div class="row justify-content-center">
                 <div class="col-lg-9 col-12 text-center">
