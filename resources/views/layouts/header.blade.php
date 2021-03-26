@@ -12,15 +12,15 @@ $agent = new Agent();
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
             <!-- Right Side Of Navbar -->
-            <div class="navbar-nav mx-auto d-flex align-items-center" id="pick">
+            <div class="navbar-nav mx-auto d-flex align-items-center" id="pick1">
                 <!-- Authentication Links -->
-                <a href="#about">
+                <a href="#about-block">
                     <span class="{{ $agent->isDesktop() ? 'fin-menu-point' : 'fin-menu-mobile'}}">{{ __('main.about_us') }}</span>
                 </a>
 
-                <a href="#feedback">
+                <a href="#feedback-block">
                 <span class="{{ $agent->isDesktop() ? 'fin-menu-point' : 'fin-menu-mobile'}}">{{ __('main.review') }}</span>
                 </a>
 
