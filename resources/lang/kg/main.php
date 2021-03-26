@@ -49,19 +49,16 @@ return [
 
     //seventh block
     'seventh_b_title'              => 'Кредит алуу үчүн заявка калтыруу',
+
 //    footer
-    'follow_me'                     => 'Бизге соц тармактарда каттал',
     'help'                          => 'Колдоо кызматы',
     'about_project'                 => 'Долбоор жөнүндө',
     'desc'                          => 'Мүнөздөмө',
-    'mission'                       => 'Максат',
+    'policity'                      => 'Пайдалануу шарттары',
+    'privacy_policy'                => 'Купуялык саясаты',
     'advertisement'                 => 'Жарнама',
-    'put_products_part'             => 'Продукт бөлүмүндө жайгаштыруу',
-    'put_news_part'                 => 'Жанылыктар бөлүмүндө жайгаштыруу',
-    'marketing_part'                => 'Маркетинг бөлүмү',
+    'commercial_department'         => 'Сатуу бөлүмү',
     'contacts'                      => 'Байланышуу',
-    'user_agree'                    => 'Пайдалануу шарттары ',
-    'contract_on_offer'             => 'Сунуш келишими',
 
 
 //   other

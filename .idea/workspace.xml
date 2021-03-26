@@ -1,7 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98da22b4-e15d-4860-8b9c-f70a0e80bc13" name="Default" comment="" />
+    <list default="true" id="98da22b4-e15d-4860-8b9c-f70a0e80bc13" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/app/Http/Middleware/PreventRequestsDuringMaintenance.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/app/Http/Middleware/TrustHosts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/app/Models/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/config/cors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/database/seeders/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/public/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/resources/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/resources/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/resources/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/resources/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/resources/lang/en/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/resources/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-bootstrap/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/kg/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/kg/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ru/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ru/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,70 +101,56 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46688208">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="75">
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" selection-start-line="14" selection-end-line="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="432">
-                  <caret line="45" column="38" lean-forward="true" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="77">
-                  <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="header.blade.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/views/layouts/header.blade.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="173">
-                  <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/lang/kg/main.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="10" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="75">
-          <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/resources/lang/ru/main.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="75">
+      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5175">
+              <caret line="345" column="55" selection-start-line="345" selection-start-column="55" selection-end-line="345" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="414" selection-start-line="22" selection-start-column="414" selection-end-line="22" selection-end-column="414" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#noscript#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/lang/ru/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="50" selection-start-line="50" selection-end-line="58" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/lang/kg/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="60" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/header.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -107,7 +181,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="personalpodbor" />
+        <entry key="$PROJECT_DIR$" value="kredit" />
       </map>
     </option>
   </component>
@@ -116,11 +190,12 @@
       <list>
         <option value="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/header.blade.php" />
+        <option value="$USER_HOME$/Downloads/kg/main.php" />
         <option value="$PROJECT_DIR$/resources/lang/kg/main.php" />
         <option value="$PROJECT_DIR$/resources/lang/ru/main.php" />
-        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/header.blade.php" />
       </list>
     </option>
   </component>
@@ -132,7 +207,6 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/laravel-bootstrap/package.json" />
       <path value="$PROJECT_DIR$/package.json" />
       <path value="$PROJECT_DIR$/vendor/facade/ignition/package.json" />
     </packageJsonPaths>
@@ -260,7 +334,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -304,19 +377,13 @@
               <item name="fin-landing" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fin-landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fin-landing" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -371,6 +438,7 @@
       <list>
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -391,7 +459,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6263000" />
+    <option name="totallyTimeSpent" value="6783000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -403,18 +471,18 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50080776" side_tool="true" weight="0.32956383" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32956383" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49919224" visible="true" weight="0.0" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1987076" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32956383" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19224556" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="2" side_tool="true" />
@@ -437,6 +505,29 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32956383" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32956383" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1898223" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32956383" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -464,16 +555,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/lang/ru/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="135" selection-start-line="8" selection-start-column="135" selection-end-line="8" selection-end-column="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -762,8 +843,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="1102">
+          <caret line="153" column="28" selection-start-line="153" selection-start-column="28" selection-end-line="153" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -774,38 +855,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/kg/main.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="10" />
+        <state relative-caret-position="5175">
+          <caret line="345" column="55" selection-start-line="345" selection-start-column="55" selection-end-line="345" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/header.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+        <state relative-caret-position="147">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+    <entry file="file://$USER_HOME$/Downloads/kg/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="507">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ru/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="58" column="50" lean-forward="true" selection-start-line="50" selection-end-line="58" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/kg/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="60" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/lang/ru/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        <state relative-caret-position="237">
+          <caret line="50" selection-start-line="50" selection-end-line="58" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="45" column="38" lean-forward="true" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+        <state relative-caret-position="330">
+          <caret line="22" column="414" selection-start-line="22" selection-start-column="414" selection-end-line="22" selection-end-column="414" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#noscript#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
