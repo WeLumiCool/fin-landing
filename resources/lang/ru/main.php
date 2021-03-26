@@ -49,24 +49,19 @@ return [
     //seventh block
     'seventh_b_title'              => 'Хочу оставить заявку на кредит',
 //    footer
-    'follow_me'                     => 'Подпишитесь на нас',
     'help'                          => 'Служба поддержки',
     'about_project'                 => 'О проекте',
     'desc'                          => 'Описание',
-    'mission'                       => 'Миссия',
+    'policity'                      => 'Пользовательское соглашение',
+    'privacy_policy'                => 'Политика конфиденциальности',
     'advertisement'                 => 'Реклама',
-    'put_products_part'             => 'Размещение в разделе продуктов',
-    'put_news_part'                 => 'Размещение в отделе новостей',
-    'marketing_part'                => 'Отдел маркетинга',
+    'commercial_department'         => 'Коммерческий отдел',
     'contacts'                      => 'Контакты',
-    'user_agree'                    => 'Пользовательское соглашение',
-    'contract_on_offer'             => 'Договор по оферте',
 
 
 //   other
     'master'                        => 'Начать персональный подбор',
     'go_to'                         => 'Подобрать кредит',
     'about_us'                      => 'О нас',
-
 
 ];
