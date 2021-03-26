@@ -14,10 +14,10 @@
                     <div class="col-lg-10 col-12">
                         <h1 class="fin-title rubik"
                             style="{{$agent->isDesktop() ? '' : 'font-size: 25px; line-height: 30px;'}}">
-                            {{ __('main.consumer_credit') }}
+                            {{ __('main.fb_title') }}
                         </h1>
                         <p class="fin-desc pr-lg-5 pr-0 mb-0" style="padding-top: 30px;">
-                            {{ __('main.consumer_credit_desc') }}
+                            {{ __('main.fb_desc') }}
                         </p>
                         <a href="http://fin.kg/type_list/11">
                             <button class="btn fin-btn d-lg-block d-none" style="padding: 5px 40px; margin-top: 50px;">
@@ -147,7 +147,7 @@
                 <div class="col-lg-10 col-12 text-center">
                     <p class="font-weight-normal fin-desc"
                        style="color: #000000; {{ $agent->isDesktop() ? 'font-size: 22px' : 'font-size: 18px' }}">
-                        {{ __('main.product_desc') }}
+                        {{ __('main.comment') }}
                     </p>
                     <img style="width:50px; " src="{{ asset('image/img/person2.webp') }}" class="mb-3 mt-4"
                          alt="User">
@@ -168,14 +168,14 @@
                 <div class="col-12 col-lg-4 ml-lg-4 ml-0 mt-lg-0 mt-5 text-lg-left text-center">
                     <h3 class="rubik fin-title-2 text-lg-left text-center"
                         style="{{ $agent->isDesktop() ? 'font-size: 35px' : 'font-size: 22px;'}}; line-height: 120%;">
-                        {{ __('main.easy_finans') }}
+                        {{ __('main.tb_title') }}
                     </h3>
                     <p class="fin-desc mt-3 text-lg-left text-center">
-                        {{ __('main.choose_optimal_tarif') }}
+                        {{ __('main.tb_desc') }}
                     </p>
                     <a href="http://fin.kg/type_list/11">
                         <button class="btn fin-btn inter" style="padding: 5px 40px; margin-top: 30px;">
-                            {{ __('main.get_credit') }}
+                            {{ __('main.go_to') }}
                         </button>
                     </a>
                 </div>
@@ -189,7 +189,7 @@
                 <div class="col-lg-9 col-12 text-center">
                     <p class="font-weight-normal fin-desc"
                        style="color: #000000; {{ $agent->isDesktop() ? 'font-size: 22px' : 'font-size: 18px;' }}">
-                        {{ __('main.review_second') }}
+                        {{ __('main.comment_second') }}
                     </p>
                     <img style="width:50px; " src="{{ asset('image/img/person1.webp') }}" class="mb-3 mt-4"
                          alt="User">
@@ -207,14 +207,14 @@
                 <div class="col-lg-4 col-12 text-lg-left text-center">
                     <h3 class="fin-title-2 text-lg-left text-center mt-lg-0 mt-5"
                         style="{{$agent->isDesktop() ? 'font-size: 35px' : 'font-size: 22px'}};">
-                        {{__('main.one_click')}}
+                        {{__('main.fourth_b_title')}}
                     </h3>
                     <p class="fin-desc" style="{{ $agent->isDesktop() ? 'padding-top: 72px;' : 'padding-top: 30px;'}}">
-                        {{ __('main.one_click_desc') }}
+                        {{ __('main.fourth_b_desc') }}
                     </p>
                     <a href="http://fin.kg/type_list/11">
                         <button class="btn fin-btn" style="padding: 5px 40px; margin-top: 50px;">
-                            {{ __('main.get_credit') }}
+                            {{ __('main.go_to') }}
                         </button>
                     </a>
                 </div>
@@ -231,7 +231,7 @@
                 <div class="col-lg-9 col-12 text-center">
                     <p class="font-weight-normal fin-desc"
                        style="color: #000000; {{$agent->isDesktop() ? 'font-size: 22px' : 'font-size: 18px;'}}">
-                        {{ __('main.review_third') }}
+                        {{ __('main.comment_third') }}
                     </p>
                     <img style="width:50px; " src="{{ asset('image/img/women1.webp') }}" class="mb-3 mt-4"
                          alt="User">
@@ -253,15 +253,15 @@
                     <div class="text-lg-left text-center">
                         <h3 class="rubik fin-title-2"
                             style="{{$agent->isDesktop() ? 'font-size: 35px;' : 'font-size: 22px'}} color: #2e2e2e; line-height: 120%">
-                            {{ __('main.free') }}
+                            {{ __('main.fifth_b_title') }}
                         </h3>
                         <p class="fin-desc" style="padding-top: 31px;">
-                            {{ __('main.can_use_free') }}
+                            {{ __('main.fifth_b_desc') }}
                         </p>
                         <a href="http://fin.kg/type_list/11">
                             <button class="btn fin-btn"
                                     style="padding: 5px 40px; {{ $agent->isDesktop() ? 'margin-top: 64px' : 'margin-top: 24px'}};">
-                                {{ __('main.get_credit') }}
+                                {{ __('main.go_to') }}
                             </button>
                         </a>
                     </div>
@@ -277,10 +277,10 @@
                 <div class="col-lg-6 col-12 pr-lg-5 pr-0 text-lg-left text-center">
                     <h3 class="fin-title-2"
                         style=" {{$agent->isDesktop() ? 'font-size: 35px' : 'font-size: 22px'}}; color: #2e2e2e; line-height: 120%;">
-                        {{ __('main.get_info') }}
+                        {{ __('main.sb_title') }}
                     </h3>
                     <p class="fin-desc pt-3" style="{{$agent->isDesktop() ? 'padding-right: 180px' : ''}};">
-                        {{ __('main.put_email') }}
+                        {{ __('main.sb_desc') }}
                     </p>
                 </div>
                 <div
@@ -350,12 +350,12 @@
                     <div class="text-lg-left text-center">
                         <h3 class="rubik fin-title-2"
                             style="{{$agent->isDesktop() ? 'font-size: 35px' : 'font-size: 22px'}}; color: #2e2e2e; line-height: 120%;">
-                            {{ __('main.send_application') }}
+                            {{ __('main.seventh_b_title') }}
                         </h3>
                         <a href="http://fin.kg/type_list/11">
                             <button class="btn fin-btn"
                                     style=" margin-top: 40px; {{$agent->isDesktop() ? 'padding: 5px 40px;' : 'font-size: 9px; padding: 5px 10px;'}}">
-                                {{ __('main.get_credit') }}
+                                {{ __('main.go_to') }}
                             </button>
                         </a>
                     </div>

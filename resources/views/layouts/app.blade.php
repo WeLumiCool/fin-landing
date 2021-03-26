@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ __('main.consumer_credit') }}</title>
+    <title>{{ __('main.title') }}</title>
 
     <!-- Scripts -->
 
