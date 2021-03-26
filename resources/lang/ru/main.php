@@ -2,7 +2,7 @@
 
 return [
     //title
-    'title'                         =>'Персональный подбор',
+    'title'                         =>'Кредит',
 
     //header
     'review'                        => 'Отзывы',
