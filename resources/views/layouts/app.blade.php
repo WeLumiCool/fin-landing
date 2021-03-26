@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ __('main.fb_title') }}</title>
+    <title>{{ __('main.title') }}</title>
 
     <!-- Scripts -->
 

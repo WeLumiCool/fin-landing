@@ -19,14 +19,14 @@
                         <p class="fin-desc pr-lg-5 pr-0 mb-0" style="padding-top: 30px;">
                             {{ __('main.fb_desc') }}
                         </p>
-                        <a href="http://fin.kg/type_list/11">
+                        <a href="http://fin.kg/type_list/9">
                             <button class="btn fin-btn d-lg-block d-none" style="padding: 5px 40px; margin-top: 50px;">
                                 {{__('main.go_to')}}
                             </button>
                         </a>
                         <div class="d-lg-none d-block mt-5">
                             <img class="img-fluid d-lg-none d-block" src="{{ asset('image/img/blimg1.webp') }}" alt="">
-                            <a href="http://fin.kg/type_list/11">
+                            <a href="http://fin.kg/type_list/9">
                                 <button class="btn fin-btn mt-5" style="padding: 5px 40px; margin-top: 50px;">
                                     {{__('main.go_to')}}
                                 </button>
@@ -173,7 +173,7 @@
                     <p class="fin-desc mt-3 text-lg-left text-center">
                         {{ __('main.tb_desc') }}
                     </p>
-                    <a href="http://fin.kg/type_list/11">
+                    <a href="http://fin.kg/type_list/9">
                         <button class="btn fin-btn inter" style="padding: 5px 40px; margin-top: 30px;">
                             {{ __('main.master') }}
                         </button>
@@ -212,7 +212,7 @@
                     <p class="fin-desc" style="{{ $agent->isDesktop() ? 'padding-top: 72px;' : 'padding-top: 30px;'}}">
                         {{ __('main.fourth_b_desc') }}
                     </p>
-                    <a href="http://fin.kg/type_list/11">
+                    <a href="http://fin.kg/type_list/9">
                         <button class="btn fin-btn" style="padding: 5px 40px; margin-top: 50px;">
                             {{ __('main.master') }}
                         </button>
@@ -258,7 +258,7 @@
                         <p class="fin-desc" style="padding-top: 31px;">
                             {{ __('main.fifth_b_desc') }}
                         </p>
-                        <a href="http://fin.kg/type_list/11">
+                        <a href="http://fin.kg/type_list/9">
                             <button class="btn fin-btn"
                                     style="padding: 5px 40px; {{ $agent->isDesktop() ? 'margin-top: 64px' : 'margin-top: 24px'}};">
                                 {{ __('main.master') }}
@@ -345,7 +345,7 @@
                             style="{{$agent->isDesktop() ? 'font-size: 35px' : 'font-size: 22px'}}; color: #2e2e2e; line-height: 120%;">
                             {{ __('main.seventh_b_title') }}
                         </h3>
-                        <a href="http://fin.kg/type_list/11">
+                        <a href="http://fin.kg/type_list/9">
                             <button class="btn fin-btn"
                                     style=" margin-top: 40px; {{$agent->isDesktop() ? 'padding: 5px 40px;' : 'font-size: 9px; padding: 5px 10px;'}}">
                                 {{ __('main.master') }}
