@@ -1,6 +1,9 @@
 <?php
 
 return [
+    //title
+    'title'                         =>'Микрозайм',
+
     //header
     'review'                        => 'Отзывы',
 
