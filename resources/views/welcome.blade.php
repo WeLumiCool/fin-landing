@@ -19,14 +19,14 @@
                         <p class="fin-desc pr-lg-5 pr-0 mb-0" style="padding-top: 30px;">
                             {{ __('main.fb_desc') }}
                         </p>
-                        <a href="http://fin.kg/type_list/11">
+                        <a href="http://fin.kg/newmaster/1#/">
                             <button class="btn fin-btn d-lg-block d-none" style="padding: 5px 40px; margin-top: 50px;">
                                 {{__('main.go_to')}}
                             </button>
                         </a>
                         <div class="d-lg-none d-block mt-5">
                             <img class="img-fluid d-lg-none d-block" src="{{ asset('image/img/blimg1.webp') }}" alt="">
-                            <a href="http://fin.kg/type_list/11">
+                            <a href="http://fin.kg/newmaster/1#/">
                                 <button class="btn fin-btn mt-5" style="padding: 5px 40px; margin-top: 50px;">
                                     {{__('main.go_to')}}
                                 </button>
@@ -96,7 +96,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-white" id="about" style="padding: 65px 0px;">
+    <div class="container-fluid bg-white" id="personalpodbor-about" style="padding: 65px 0px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-12">
@@ -173,7 +173,7 @@
                     <p class="fin-desc mt-3 text-lg-left text-center">
                         {{ __('main.tb_desc') }}
                     </p>
-                    <a href="http://fin.kg/type_list/11">
+                    <a href="http://fin.kg/newmaster/1#/">
                         <button class="btn fin-btn inter" style="padding: 5px 40px; margin-top: 30px;">
                             {{ __('main.go_to') }}
                         </button>
@@ -183,7 +183,8 @@
         </div>
     </div>
     <div class="container-fluid"
-         style="background: linear-gradient(275.58deg, rgba(58, 241, 158, 0.06) 0%, rgba(32, 176, 231, 0.06) 100%);" id="feedback">
+         style="background: linear-gradient(275.58deg, rgba(58, 241, 158, 0.06) 0%, rgba(32, 176, 231, 0.06) 100%);"
+         id="personalpodbor-feedback">
         <div class="container pt-5 pb-4">
             <div class="row justify-content-center">
                 <div class="col-lg-9 col-12 text-center">
@@ -212,7 +213,7 @@
                     <p class="fin-desc" style="{{ $agent->isDesktop() ? 'padding-top: 72px;' : 'padding-top: 30px;'}}">
                         {{ __('main.fourth_b_desc') }}
                     </p>
-                    <a href="http://fin.kg/type_list/11">
+                    <a href="http://fin.kg/newmaster/1#/">
                         <button class="btn fin-btn" style="padding: 5px 40px; margin-top: 50px;">
                             {{ __('main.go_to') }}
                         </button>
@@ -258,7 +259,7 @@
                         <p class="fin-desc" style="padding-top: 31px;">
                             {{ __('main.fifth_b_desc') }}
                         </p>
-                        <a href="http://fin.kg/type_list/11">
+                        <a href="http://fin.kg/newmaster/1#/">
                             <button class="btn fin-btn"
                                     style="padding: 5px 40px; {{ $agent->isDesktop() ? 'margin-top: 64px' : 'margin-top: 24px'}};">
                                 {{ __('main.go_to') }}
@@ -284,7 +285,7 @@
                     </p>
                 </div>
                 <div
-                    class="col-lg-6 col-12 px-lg-3 px-0 d-flex align-items-center justify-content-lg-start justify-content-center">
+                        class="col-lg-6 col-12 px-lg-3 px-0 d-flex align-items-center justify-content-lg-start justify-content-center">
                     {{--<form class="text-lg-left text-center" action="">
                     <input class="form-control bg-transparent"  style="border: 1px solid #959595; border-radius: 10px;" type="text" placeholder="Имя">
                     <input class="form-control bg-transparent mt-4"  style="border: 1px solid #959595; border-radius: 10px;" type="email" placeholder="Ваш e-mail">
@@ -295,42 +296,48 @@
                     <ul class="list-unstyled list-inline">
                         <li class="list-inline-item mr-lg-2 mr-0">
                             <a href="https://www.instagram.com/fin.kg_media/">
-                                <div class="bg-white d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; border-radius: 5px;">
+                                <div class="bg-white d-flex align-items-center justify-content-center"
+                                     style="width: 45px; height: 45px; border-radius: 5px;">
                                     <i class="fab fa-instagram social-ico-2 fa-2x"></i>
                                 </div>
                             </a>
                         </li>
                         <li class="list-inline-item mr-lg-2 mr-0">
                             <a href="https://t.me/fin_kg">
-                                <div class="bg-white d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; border-radius: 5px;">
+                                <div class="bg-white d-flex align-items-center justify-content-center"
+                                     style="width: 45px; height: 45px; border-radius: 5px;">
                                     <i class="fab fa-telegram-plane social-ico-2 fa-2x"></i>
                                 </div>
                             </a>
                         </li>
                         <li class="list-inline-item mr-lg-2 mr-0">
                             <a href="https://www.facebook.com/Finkg-100368308735998">
-                                <div class="bg-white d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; border-radius: 5px;">
+                                <div class="bg-white d-flex align-items-center justify-content-center"
+                                     style="width: 45px; height: 45px; border-radius: 5px;">
                                     <i class="fab fa-facebook-square social-ico-2 fa-2x"></i>
                                 </div>
                             </a>
                         </li>
                         <li class="list-inline-item mr-lg-2 mr-0">
                             <a href="https://ok.ru/group/65850950418465">
-                                <div class="bg-white d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; border-radius: 5px;">
+                                <div class="bg-white d-flex align-items-center justify-content-center"
+                                     style="width: 45px; height: 45px; border-radius: 5px;">
                                     <i class="fab fa-odnoklassniki social-ico-2 fa-2x"></i>
                                 </div>
                             </a>
                         </li>
                         <li class="list-inline-item mr-lg-2 mr-0">
                             <a href="https://twitter.com/Finkg_media">
-                                <div class="bg-white d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; border-radius: 5px;">
+                                <div class="bg-white d-flex align-items-center justify-content-center"
+                                     style="width: 45px; height: 45px; border-radius: 5px;">
                                     <i class="fab fa-twitter social-ico-2 fa-2x"></i>
                                 </div>
                             </a>
                         </li>
                         <li class="list-inline-item mr-lg-2 mr-0">
                             <a href="https://vk.com/public201397360">
-                                <div class="bg-white d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; border-radius: 5px;">
+                                <div class="bg-white d-flex align-items-center justify-content-center"
+                                     style="width: 45px; height: 45px; border-radius: 5px;">
                                     <i class="fab fa-vk social-ico-2 fa-2x"></i>
                                 </div>
                             </a>
@@ -352,7 +359,7 @@
                             style="{{$agent->isDesktop() ? 'font-size: 35px' : 'font-size: 22px'}}; color: #2e2e2e; line-height: 120%;">
                             {{ __('main.seventh_b_title') }}
                         </h3>
-                        <a href="http://fin.kg/type_list/11">
+                        <a href="http://fin.kg/newmaster/1#/">
                             <button class="btn fin-btn"
                                     style=" margin-top: 40px; {{$agent->isDesktop() ? 'padding: 5px 40px;' : 'font-size: 9px; padding: 5px 10px;'}}">
                                 {{ __('main.go_to') }}
