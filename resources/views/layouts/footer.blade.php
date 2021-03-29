@@ -1,6 +1,6 @@
 <footer>
     <div style="background: rgb(36, 36, 36);">
-        <div class="kredit " style="border-bottom: 1px solid #fefefe;">
+        <div class="kredit" style="border-bottom: 1px solid #fefefe;">
             <div class="kredit container">
                 <div class="kredit row py-3">
                     <div class="kredit col-lg-3 col-12">
