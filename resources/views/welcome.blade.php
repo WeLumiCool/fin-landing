@@ -19,14 +19,16 @@
                         <p class="depozit fin-desc pr-lg-5 pr-0 mb-0" style="padding-top: 30px;">
                             {{ __('main.fb_desc') }}
                         </p>
-                        <a href="http://fin.kg/type_list/9">
-                            <button class="depozit btn fin-btn d-lg-block d-none" style="padding: 5px 40px; margin-top: 50px;">
+                        <a href="https://fin.kg/type_list/9">
+                            <button class="depozit btn fin-btn d-lg-block d-none"
+                                    style="padding: 5px 40px; margin-top: 50px;">
                                 {{__('main.go_to')}}
                             </button>
                         </a>
                         <div class="depozit d-lg-none d-block mt-5">
-                            <img class="depozit img-fluid d-lg-none d-block" src="{{ asset('image/img/blimg1.webp') }}" alt="">
-                            <a href="http://fin.kg/type_list/9">
+                            <img class="depozit img-fluid d-lg-none d-block" src="{{ asset('image/first_block.jpg') }}"
+                                 alt="">
+                            <a href="https://fin.kg/type_list/9">
                                 <button class="depozit btn fin-btn mt-5" style="padding: 5px 40px; margin-top: 50px;">
                                     {{__('main.go_to')}}
                                 </button>
@@ -90,7 +92,7 @@
                     </div>
                 </div>
                 <div class="depozit col-5 d-lg-block d-none">
-                    <img class="depozit img-fluid" src="{{ asset('image/img/blimg1.webp') }}" alt="">
+                    <img class="depozit img-fluid" src="{{ asset('image/first_block.jpg') }}" alt="">
                 </div>
 
             </div>
@@ -104,7 +106,8 @@
                         style="{{$agent->isDesktop() ? 'font-size: 55px' : 'font-size: 25px'}}; ">
                         {{ __('main.about_us') }}
                     </h2>
-                    <p class="depozit fin-desc mt-3 pr-lg-5 pr-0 text-lg-left text-center" style="font-weight: 700!important;">
+                    <p class="depozit fin-desc mt-3 pr-lg-5 pr-0 text-lg-left text-center"
+                       style="font-weight: 700!important;">
                         {{ __('main.fin_kg') }}
                     </p>
                     <p class="depozit fin-desc mt-3 pr-lg-5 pr-0 text-lg-left text-center">
@@ -152,7 +155,7 @@
                     <img style="width:50px; " src="{{ asset('image/img/person2.webp') }}" class="depozit mb-3 mt-4"
                          alt="User">
                     <p class="depozit font-size-14 font-weight-normal" style="color: #000000;">
-                        Садыр
+                        Нурболот
                     </p>
                 </div>
             </div>
@@ -163,7 +166,8 @@
         <div class="depozit container" style="padding: 120px 0px;">
             <div class="depozit row justify-content-center align-items-center">
                 <div class="depozit col-12 col-lg-5">
-                    <img class="depozit img-fluid" src="{{ asset('image/img/3blimg.webp') }}" alt="Финансы стали проще">
+                    <img class="depozit img-fluid" src="{{ asset('image/second_block.jpg') }}"
+                         alt="Финансы стали проще">
                 </div>
                 <div class="depozit col-12 col-lg-4 ml-lg-4 ml-0 mt-lg-0 mt-5 text-lg-left text-center">
                     <h3 class="depozit rubik fin-title-2 text-lg-left text-center"
@@ -173,7 +177,7 @@
                     <p class="depozit fin-desc mt-3 text-lg-left text-center">
                         {{ __('main.tb_desc') }}
                     </p>
-                    <a href="http://fin.kg/type_list/9">
+                    <a href="https://fin.kg/type_list/9">
                         <button class="depozit btn fin-btn inter" style="padding: 5px 40px; margin-top: 30px;">
                             {{ __('main.master') }}
                         </button>
@@ -183,7 +187,8 @@
         </div>
     </div>
     <div class="depozit container-fluid"
-         style="background: linear-gradient(275.58deg, rgba(58, 241, 158, 0.06) 0%, rgba(32, 176, 231, 0.06) 100%);" id="depozit-feedback">
+         style="background: linear-gradient(275.58deg, rgba(58, 241, 158, 0.06) 0%, rgba(32, 176, 231, 0.06) 100%);"
+         id="depozit-feedback">
         <div class="depozit container pt-5 pb-4">
             <div class="depozit row justify-content-center">
                 <div class="depozit col-lg-9 col-12 text-center">
@@ -194,7 +199,7 @@
                     <img style="width:50px; " src="{{ asset('image/img/person1.webp') }}" class="depozit mb-3 mt-4"
                          alt="User">
                     <p class="depozit font-size-14 font-weight-normal" style="color: #000000;">
-                        Адилет
+                        Эржан
                     </p>
                 </div>
             </div>
@@ -209,17 +214,18 @@
                         style="{{$agent->isDesktop() ? 'font-size: 35px' : 'font-size: 22px'}};">
                         {{__('main.fourth_b_title')}}
                     </h3>
-                    <p class="depozit fin-desc" style="{{ $agent->isDesktop() ? 'padding-top: 72px;' : 'padding-top: 30px;'}}">
+                    <p class="depozit fin-desc"
+                       style="{{ $agent->isDesktop() ? 'padding-top: 72px;' : 'padding-top: 30px;'}}">
                         {{ __('main.fourth_b_desc') }}
                     </p>
-                    <a href="http://fin.kg/type_list/9">
+                    <a href="https://fin.kg/type_list/9">
                         <button class="depozit btn fin-btn" style="padding: 5px 40px; margin-top: 50px;">
                             {{ __('main.master') }}
                         </button>
                     </a>
                 </div>
                 <div class="depozit col-lg-5 col-12 order-lg-last order-first my-lg-0 my-4">
-                    <img class="depozit img-fluid" src="{{ asset('image/img/4blimg.webp') }}" alt="">
+                    <img class="depozit img-fluid" src="{{ asset('image/third_block.jpg') }}" alt="">
                 </div>
             </div>
         </div>
@@ -236,7 +242,7 @@
                     <img style="width:50px; " src="{{ asset('image/img/women1.webp') }}" class="depozit mb-3 mt-4"
                          alt="User">
                     <p class="depozit font-size-14 font-weight-normal" style="color: #000000;">
-                        Аяна
+                        Айдана
                     </p>
                 </div>
             </div>
@@ -247,7 +253,7 @@
         <div class="depozit container" style="padding-top: 72px; padding-bottom: 115px;">
             <div class="depozit row justify-content-between">
                 <div class="depozit col-lg-6 col-12">
-                    <img class="depozit img-fluid" src="{{ asset('image/img/blimg7.webp') }}" alt="">
+                    <img class="depozit img-fluid" src="{{ asset('image/fourth_block.jpg') }}" alt="">
                 </div>
                 <div class="depozit col-lg-4 col-12 d-flex align-items-center mt-lg-0 mt-5">
                     <div class="depozit text-lg-left text-center">
@@ -258,7 +264,7 @@
                         <p class="depozit fin-desc" style="padding-top: 31px;">
                             {{ __('main.fifth_b_desc') }}
                         </p>
-                        <a href="http://fin.kg/type_list/9">
+                        <a href="https://fin.kg/type_list/9">
                             <button class="depozit btn fin-btn"
                                     style="padding: 5px 40px; {{ $agent->isDesktop() ? 'margin-top: 64px' : 'margin-top: 24px'}};">
                                 {{ __('main.master') }}
@@ -284,46 +290,52 @@
                     </p>
                 </div>
                 <div
-                    class="depozit col-lg-6 col-12 px-lg-3 px-0 d-flex align-items-center justify-content-lg-start justify-content-center">
+                        class="depozit col-lg-6 col-12 px-lg-3 px-0 d-flex align-items-center justify-content-lg-start justify-content-center">
                     <ul class="depozit list-unstyled list-inline">
                         <li class="depozit list-inline-item mr-lg-2 mr-0">
                             <a href="https://www.instagram.com/fin.kg_media/">
-                                <div class="depozit bg-white d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; border-radius: 5px;">
+                                <div class="depozit bg-white d-flex align-items-center justify-content-center"
+                                     style="width: 45px; height: 45px; border-radius: 5px;">
                                     <i class="depozit fab fa-instagram social-ico-2 fa-2x"></i>
                                 </div>
                             </a>
                         </li>
                         <li class="depozit list-inline-item mr-lg-2 mr-0">
                             <a href="https://t.me/fin_kg">
-                                <div class="depozit bg-white d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; border-radius: 5px;">
+                                <div class="depozit bg-white d-flex align-items-center justify-content-center"
+                                     style="width: 45px; height: 45px; border-radius: 5px;">
                                     <i class="depozit fab fa-telegram-plane social-ico-2 fa-2x"></i>
                                 </div>
                             </a>
                         </li>
                         <li class="depozit list-inline-item mr-lg-2 mr-0">
                             <a href="https://www.facebook.com/Finkg-100368308735998">
-                                <div class="depozit bg-white d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; border-radius: 5px;">
+                                <div class="depozit bg-white d-flex align-items-center justify-content-center"
+                                     style="width: 45px; height: 45px; border-radius: 5px;">
                                     <i class="depozit fab fa-facebook-square social-ico-2 fa-2x"></i>
                                 </div>
                             </a>
                         </li>
                         <li class="depozit list-inline-item mr-lg-2 mr-0">
                             <a href="https://ok.ru/group/65850950418465">
-                                <div class="depozit bg-white d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; border-radius: 5px;">
+                                <div class="depozit bg-white d-flex align-items-center justify-content-center"
+                                     style="width: 45px; height: 45px; border-radius: 5px;">
                                     <i class="depozit fab fa-odnoklassniki social-ico-2 fa-2x"></i>
                                 </div>
                             </a>
                         </li>
                         <li class="depozit list-inline-item mr-lg-2 mr-0">
                             <a href="https://twitter.com/Finkg_media">
-                                <div class="depozit bg-white d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; border-radius: 5px;">
+                                <div class="depozit bg-white d-flex align-items-center justify-content-center"
+                                     style="width: 45px; height: 45px; border-radius: 5px;">
                                     <i class="depozit fab fa-twitter social-ico-2 fa-2x"></i>
                                 </div>
                             </a>
                         </li>
                         <li class="depozit list-inline-item mr-lg-2 mr-0">
                             <a href="https://vk.com/public201397360">
-                                <div class="depozit bg-white d-flex align-items-center justify-content-center" style="width: 45px; height: 45px; border-radius: 5px;">
+                                <div class="depozit bg-white d-flex align-items-center justify-content-center"
+                                     style="width: 45px; height: 45px; border-radius: 5px;">
                                     <i class="depozit fab fa-vk social-ico-2 fa-2x"></i>
                                 </div>
                             </a>
@@ -345,7 +357,7 @@
                             style="{{$agent->isDesktop() ? 'font-size: 35px' : 'font-size: 22px'}}; color: #2e2e2e; line-height: 120%;">
                             {{ __('main.seventh_b_title') }}
                         </h3>
-                        <a href="http://fin.kg/type_list/9">
+                        <a href="https://fin.kg/type_list/9">
                             <button class="depozit btn fin-btn"
                                     style=" margin-top: 40px; {{$agent->isDesktop() ? 'padding: 5px 40px;' : 'font-size: 9px; padding: 5px 10px;'}}">
                                 {{ __('main.master') }}
