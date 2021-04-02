@@ -2,7 +2,7 @@
 
 return [
     //title
-    'title'                         =>'Кредит',
+    'title'                         =>'Кредиттер',
 
     //header
     'review'                        => 'Пикир',
