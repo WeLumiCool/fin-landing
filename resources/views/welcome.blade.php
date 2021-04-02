@@ -25,7 +25,7 @@
                             </button>
                         </a>
                         <div class="karty d-lg-none d-block mt-5">
-                            <img class="karty img-fluid d-lg-none d-block" src="{{ asset('image/first_block.jpg') }}" alt="">
+                            <img class="karty img-fluid d-lg-none d-block" src="{{ asset('image/first_block.png') }}" alt="">
                             <a href="https://fin.kg/type_list/15">
                                 <button class="karty btn fin-btn mt-5" style="padding: 5px 40px; margin-top: 50px;">
                                     {{__('main.go_to')}}
@@ -90,7 +90,7 @@
                     </div>
                 </div>
                 <div class="karty col-5 d-lg-block d-none">
-                    <img class="karty img-fluid" src="{{ asset('image/first_block.jpg') }}" alt="">
+                    <img class="karty img-fluid" src="{{ asset('image/first_block.png') }}" alt="">
                 </div>
 
             </div>
