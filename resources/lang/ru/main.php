@@ -2,7 +2,7 @@
 
 return [
     //title
-    'title'                         =>'Депозит',
+    'title'                         =>'Карты',
 
     //header
     'review'                        => 'Отзывы',
