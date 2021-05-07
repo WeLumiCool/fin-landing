@@ -19,15 +19,15 @@
                         <p class="kredit fin-desc pr-lg-5 pr-0 mb-0" style="padding-top: 30px;">
                             {{ __('main.fb_desc') }}
                         </p>
-                        <a href="http://fin.kg/type_list/11">
-                            <button class="kredit btn fin-btn d-lg-block d-none" style="padding: 5px 40px; margin-top: 50px;">
+                        <a href="http://fin.kg/type_list/11" style="text-decoration: none!important;">
+                            <button class="kredit btn fin-btn d-lg-block d-none" style="padding: 7px 40px; margin-top: 50px;">
                                 {{__('main.go_to')}}
                             </button>
                         </a>
                         <div class="kredit d-lg-none d-block mt-5">
                             <img class="kredit img-fluid d-lg-none d-block" src="{{ asset('image/img/blimg1.webp') }}" alt="">
                             <a href="http://fin.kg/type_list/11">
-                                <button class="kredit btn fin-btn mt-5" style="padding: 5px 40px; margin-top: 50px;">
+                                <button class="kredit btn fin-btn mt-5" style="padding: 7px 40px; margin-top: 50px;">
                                     {{__('main.go_to')}}
                                 </button>
                             </a>
@@ -174,7 +174,7 @@
                         {{ __('main.tb_desc') }}
                     </p>
                     <a href="http://fin.kg/type_list/11">
-                        <button class="kredit btn fin-btn inter" style="padding: 5px 40px; margin-top: 30px;">
+                        <button class="kredit btn fin-btn inter" style="padding: 7px 40px; margin-top: 30px;">
                             {{ __('main.go_to') }}
                         </button>
                     </a>
@@ -213,7 +213,7 @@
                         {{ __('main.fourth_b_desc') }}
                     </p>
                     <a href="http://fin.kg/type_list/11">
-                        <button class="kredit btn fin-btn" style="padding: 5px 40px; margin-top: 50px;">
+                        <button class="kredit btn fin-btn" style="padding: 7px 40px; margin-top: 50px;">
                             {{ __('main.go_to') }}
                         </button>
                     </a>
@@ -260,7 +260,7 @@
                         </p>
                         <a href="http://fin.kg/type_list/11">
                             <button class="kredit btn fin-btn"
-                                    style="padding: 5px 40px; {{ $agent->isDesktop() ? 'margin-top: 64px' : 'margin-top: 24px'}};">
+                                    style="padding: 7px 40px; {{ $agent->isDesktop() ? 'margin-top: 64px' : 'margin-top: 24px'}};">
                                 {{ __('main.go_to') }}
                             </button>
                         </a>
@@ -285,13 +285,6 @@
                 </div>
                 <div
                     class="kredit col-lg-6 col-12 px-lg-3 px-0 d-flex align-items-center justify-content-lg-start justify-content-center">
-                    {{--<form class="kredit text-lg-left text-center" action="">
-                    <input class="kredit form-control bg-transparent"  style="border: 1px solid #959595; border-radius: 10px;" type="text" placeholder="Имя">
-                    <input class="kredit form-control bg-transparent mt-4"  style="border: 1px solid #959595; border-radius: 10px;" type="email" placeholder="Ваш e-mail">
-                        <button class="kredit btn text-white border-0 mt-4" style="background: linear-gradient(180deg, #F96C4D 0%, #F18936 100%); border-radius: 10px; padding: 7px 32px;">
-                            Подписаться
-                        </button>
-                    </form>--}}
                     <ul class="kredit list-unstyled list-inline">
                         <li class="kredit list-inline-item mr-lg-2 mr-0">
                             <a href="https://www.instagram.com/fin.kg_media/">
@@ -343,7 +336,7 @@
     <div class="kredit container-fluid"
          style="background-image: url({{ asset('image/img/bg9.webp') }}); background-size: 100% 100%; background-position: center;">
         <div class="kredit container"
-             style="{{ $agent->isDesktop() ? 'padding-top: 90px; padding-bottom: 30px;' : 'padding-top: 20px; padding-bottom: 20px;' }} ">
+             style="{{ $agent->isDesktop() ? 'padding-top: 90px; padding-bottom: 30px;' : 'padding-top: 50px; padding-bottom: 50px;' }} ">
             <div class="kredit row justify-content-between">
                 <div class="kredit col-1 d-lg-block d-none"></div>
                 <div class="kredit col-lg-5 col-6 d-flex align-items-center pr-lg-5 pr-0">
@@ -354,7 +347,7 @@
                         </h3>
                         <a href="http://fin.kg/type_list/11">
                             <button class="kredit btn fin-btn"
-                                    style=" margin-top: 40px; {{$agent->isDesktop() ? 'padding: 5px 40px;' : 'font-size: 9px; padding: 5px 10px;'}}">
+                                    style=" margin-top: 40px; {{$agent->isDesktop() ? 'padding: 7px 40px;' : 'font-size: 12px; padding: 10px 8px;'}}">
                                 {{ __('main.go_to') }}
                             </button>
                         </a>

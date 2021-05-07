@@ -33,7 +33,7 @@ $agent = new Agent();
                 <a class=
                    "{{ $agent->isDesktop() ? 'fin-menu-point' : 'fin-menu-mobile'}} mr-lg-3 mr-0" href="{{ route('language.switch', 'kg') }}">KG</a>
                 <a href="http://fin.kg/type_list/11">
-                    <button class="kredit btn fin-btn" style="padding: 10px 32px;">
+                    <button class="kredit btn fin-btn" style="padding: 7px 32px;">
                         {{__('main.master')}}
                     </button>
                 </a>
